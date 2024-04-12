@@ -1,0 +1,12 @@
+package basic03;
+
+//팩토리 패턴. 객체를 생성하기 위한 클래스 만들기.
+public class App {
+    public static void main( String[] args ){
+    	MessageBean bean1 = new MessageBeanKr(); 
+    	bean1.sayHello("연두");
+    	
+    	bean1 = new MessageBeanEn();
+    	bean1.sayHello("dobu");
+    }
+}

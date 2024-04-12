@@ -1,0 +1,12 @@
+package basic04;
+
+//스프링 프레임워크 방식.
+public class App {
+    public static void main( String[] args ){    
+    	MessageBean bean1 = factory.createMessage("kr"); 
+    	bean1.sayHello("연두");
+    	
+    	bean1 = factory.createMessage("en");
+    	bean1.sayHello("dobu");
+    }
+}

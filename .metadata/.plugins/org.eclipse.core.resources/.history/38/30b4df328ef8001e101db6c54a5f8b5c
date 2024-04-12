@@ -1,0 +1,12 @@
+package basic02;
+
+//객체끼리는 의존성이 없어야 한다.
+public class App {
+    public static void main( String[] args ){
+    	MessageBean bean1 = new MessageBeanKr(); 
+    	bean1.sayHello("두부");
+    	
+    	bean1 = new MessageBeanEn();
+    	bean1.sayHello("연두");
+    }
+}

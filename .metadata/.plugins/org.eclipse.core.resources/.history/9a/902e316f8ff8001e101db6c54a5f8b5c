@@ -1,0 +1,9 @@
+package basic03;
+
+public class MessageBeanFactory {
+	private MessageBeanFactory() {} //싱글톤 패턴 만들기
+	private static MessageBeanFactory factory = new MessageBeanFactory();
+	private static MessageBeanFactory newInstance() {
+		return factory;
+	}
+}

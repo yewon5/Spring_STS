@@ -1,0 +1,20 @@
+package basic04;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+//스프링 프레임워크 방식.
+public class App {
+	private static ApplicationContext ctx; //
+	
+    public static void main( String[] args ){
+    	ctx = new ClassPathXmlApplicationContext("config/basic04_config.xml"); //설정파일에서 만들어진 ㄴ("")스프링이라는 메모리를 ctx에 저장
+    	
+    	MessageBean bean = ctx.getBean("msgKr", basic04.MessageBeanKr.class);
+    	bean.sayHello("길동"); 
+    	
+    	bean = ctx.getBean("msgEn", basic04.MessageBeanEn.class);
+    	bean.sayHello("hong")
+
+    }
+}
