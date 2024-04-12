@@ -206,3 +206,9 @@ Caused by: java.lang.Exception: File not found: C:\Users\user\git\repository\bas
 	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
 	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
 	... 27 common frames omitted
+2024-04-12 17:03:36,893 [Worker-88: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mysite:basic:0.0.1-SNAPSHOT @ C:\WON\SpringWork\STSWork\basic\pom.xml.
+2024-04-12 17:03:37,136 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-12 17:03:37,138 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-12 17:03:38,346 [Worker-87: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mysite:basic:0.0.1-SNAPSHOT @ C:\WON\SpringWork\STSWork\basic\pom.xml.
+2024-04-12 17:03:38,521 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-12 17:03:38,527 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
