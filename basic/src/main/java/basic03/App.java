@@ -10,7 +10,5 @@ public class App {
     	
     	bean1 = factory.createMessage("en");
     	bean1.sayHello("dobu");
-    	
-    	
     }
 }

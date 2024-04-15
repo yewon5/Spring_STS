@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+       
+	<!-- id=주소저장 class=객체생성 -->
+	<!-- constructor-arg 생성자를 통해서 인자 값을 넘겨줌 -->
+	<bean id="messageBean" class="basic05.MessageBeanImpl">
+		<constructor-arg index="0" value="홍길동" />
+		<constructor-arg index="1" value="20" />
+		<constructor-arg index="2" value="안녕" />
+	</bean>
+	
+
+</beans>

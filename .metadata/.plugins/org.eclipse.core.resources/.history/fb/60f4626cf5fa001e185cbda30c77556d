@@ -1,0 +1,12 @@
+package basic07;
+
+import org.springframework.context.annotation.Configuration;
+
+//환경 설정 담당 클래스
+@Configuration
+public class ApplicationContextConfigure {
+	public MessageBean getMessageKr() {
+		MessageBeanKr kr = new MessageBeanKr();
+			retrun kr;
+	}
+}

@@ -1,0 +1,10 @@
+package basic05;
+
+//Kr, En 두 개의 클래스를 하나의 클래스로 만들어보기
+public class MessageBeanImpl implements MessageBean{
+
+	@Override
+	public void sayHello() {
+		
+	}
+}

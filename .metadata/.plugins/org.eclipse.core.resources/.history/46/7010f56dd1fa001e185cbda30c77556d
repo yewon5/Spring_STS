@@ -1,0 +1,10 @@
+package basic05;
+
+//인사말을 파일에다 저장하는 클래스
+public class FileOutputter implements Outputter {
+
+	@Override
+	public void output(String msg) {
+		
+	}
+}

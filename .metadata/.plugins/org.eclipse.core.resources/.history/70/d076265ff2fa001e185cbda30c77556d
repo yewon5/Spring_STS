@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--   
+	<bean id="msgKr" class="basic06.MessageBeanKr">
+		<constructor-arg>
+			<value>임꺽정</value>
+		</constructor-arg> 
+		<constructor-arg value="30" />
+	</bean>
+	
+	
+	<bean id="msgEn" class="basic06.MessageBeanEn">
+		<property name="name">
+			<value>홍길동</value>
+		</property>
+		<property name="age" value="24" />
+	</bean>
+	-->
+</beans>

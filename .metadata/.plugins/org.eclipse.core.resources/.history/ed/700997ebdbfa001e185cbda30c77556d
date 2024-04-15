@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+       
+	<!-- id=주소저장 class=객체생성 -->
+	<bean id="messageBean" class="basic06.MessageBean">
+		<!-- 1번 방식. constructor-arg 생성자를 통해서 인자 값을 넘겨줌. 초기값 넣기 -->
+		<!--
+		<constructor-arg index="0" value="홍길동" />
+		<constructor-arg index="1" value="20" />
+		<constructor-arg index="2" value="안녕" />
+		-->
+		<!-- 순서때문에 변수타입이 다 다를 경우에만 type속성 이용하기 -->
+		<constructor-arg type="String" value="홍길동" />
+		<constructor-arg type="int" value="20" />
+		<constructor-arg type="String" value="안녕" />
+		
+		<!-- 2번 방식. set메서드 호출하여 값 변경-->
+		<property name="name" value="임꺽정" />
+		<property name="age" value="30" />
+		<property name="outputter" ref="outputter" />
+		<!-- outputter 변수가 갖고 있는 주소값이 넘어가야 FileOutputter 객체를 사용 할 수 있다. -->
+	</bean>
+	
+	<bean id="outputter" class="basic05.FileOutputter">
+		<property name="filePath" value="c:\\WON\\greeting.txt"></property>
+	</bean>
+</beans>

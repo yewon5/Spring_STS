@@ -1,0 +1,10 @@
+package basic06;
+
+public class MessageBeanEn implements MessageBean{
+	private String name;
+	private String age;
+	
+	public void sayHello(String name) {
+		System.out.println("Hello~~~" + name + "!!");
+	}
+}

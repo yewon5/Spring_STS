@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+    <!-- MessageBeanKr msgKr = new MessageBeanKr (); 객체 생성하는 것과 같음. 스프링은 모든 클래스가 bean이다. -->
+    <!-- id대신에 사용할 수 있는 별명이 name -->
+	<bean id="msgKr" name="mskr, msgkr, kr" class="basic04.MessageBeanKr"></bean>
+	<bean id="msgEn" class="basic04.MessageBeanEn"></bean>
+</beans>

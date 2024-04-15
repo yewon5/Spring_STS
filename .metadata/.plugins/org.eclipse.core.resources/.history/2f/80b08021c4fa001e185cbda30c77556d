@@ -1,0 +1,21 @@
+package basic05;
+
+//Kr, En 두 개의 클래스를 하나의 클래스로 만들어보기
+public class MessageBeanImpl implements MessageBean{
+	//세이헬로 메서드 안에 매개변수 없이 처리할 변수 따로 준비해보기
+	//private이니까 생성자를 이용하거나 세터를 이용하거나
+	private String name;
+	private int age;
+	private String greeting;
+	
+	public MessageBeanImpl() {}
+	public MessageBeanImpl(String name, int age, String greeting) {
+		
+	}
+	
+	
+	@Override
+	public void sayHello() {
+		
+	}
+}

@@ -1,0 +1,17 @@
+package basic05;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+//소비자(Consumer) 클래스
+public class App {
+	private static ApplicationContext ctx; //프로젝트 안에 있는 리소스를 가져다 씀
+	
+    public static void main( String[] args ){
+    	ctx = new ClassPathXmlApplicationContext("config/basic05_config.xml");
+    	
+    	//App클래스 말고 다른 클래스에서도 MessageBeanImpl를 쓴다고 가정했을때 Impl클래스에서 문제가 생겼을 경우 의존하고 있는 다른 클래스에 문제가 발생한다.
+    	MessageBean bean = new MessageBeanImpl("홍길동", 27, "안녕하세요");
+    	bean.sayHello();
+    }
+}

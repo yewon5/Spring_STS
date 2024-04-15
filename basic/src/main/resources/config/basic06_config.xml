@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- 아래 코드를 사용하기 전 위의 컨텍스트 태그 xmlns:context 확인 -->
+	<context:component-scan base-package="basic06"></context:component-scan>
+		
+    <!--   
+	<bean id="msgKr" class="basic06.MessageBeanKr">
+		<constructor-arg>
+			<value>임꺽정</value>
+		</constructor-arg> 
+		<constructor-arg value="30" />
+	</bean>
+	
+	
+	<bean id="msgEn" class="basic06.MessageBeanEn">
+		<property name="name">
+			<value>홍길동</value>
+		</property>
+		<property name="age" value="24" />
+	</bean>
+	-->
+	
+
+</beans>

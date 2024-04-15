@@ -1,0 +1,17 @@
+package basic06;
+
+public class MessageBeanKr implements MessageBean{
+	private String name;
+	private String age;
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setAge(String age) {
+		this.age = age;
+	}
+
+	public void sayHello() {
+		System.out.println("제 이름은 " + name + "이고 나이는 " + age + "세입니다.");
+	}
+}

@@ -1,0 +1,45 @@
+package basic05;
+
+//Kr, En 두 개의 클래스를 하나의 클래스로 만들어보기
+public class MessageBeanImpl implements MessageBean{
+	//sayHello() 메서드에 매개변수를 주지 않고 처리할 변수 따로 준비
+	//private이니까 1번 생성자를 이용하거나 2번 세터를 이용하거나
+	private String name;
+	private int age;
+	private String greeting;
+	
+	//기본 생성자를 사용하여 객체 생성, 객체 초기화 시키기
+	public MessageBeanImpl() {}
+	//매개변수를 전달하여 객체 생성, 객체를 생성할때 괄호값을 넘겨줘야 함
+	public MessageBeanImpl(String name, int age, String greeting) {
+		this.name = name;
+		this.age = age;
+		this.greeting = greeting;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public void setGreeting(String greeting) {
+		this.greeting = greeting;
+	}
+	
+	
+	@Override
+	public void sayHello() {
+		String msg = greeting + "!~~ " + name + "님 이제 당신의 나이는 " + age +"세입니다.";
+		System.out.println(msg);
+		
+		//파일에 저장하는 기존 방식
+		FileOutputter outputter = new FileOutputter();
+		outputter.setFilePath("c:\\WON\\greeting.txt");
+		try {
+			outputter.output(msg);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}
