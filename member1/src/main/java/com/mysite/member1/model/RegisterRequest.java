@@ -6,7 +6,6 @@ public class RegisterRequest {
 	private String passwordConfirm;
 	private String name;
 	
-	
 	public String getEmail() {
 		return email;
 	}
