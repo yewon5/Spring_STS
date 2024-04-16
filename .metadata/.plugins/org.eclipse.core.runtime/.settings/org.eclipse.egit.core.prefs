@@ -1,5 +1,5 @@
-GitRepositoriesView.GitDirectories=
-GitRepositoriesView.GitDirectories.relative=
+GitRepositoriesView.GitDirectories=C\:\\WON\\SpringWork\\STSWork\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;
 RepositoryGroups.uuids=
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

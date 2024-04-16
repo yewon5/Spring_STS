@@ -693,3 +693,488 @@ Caused by: java.lang.Exception: File not found: C:\Users\user\git\repository\bas
 2024-04-15 17:53:55,950 [Worker-211: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
 2024-04-15 17:54:01,691 [Worker-219: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
 2024-04-15 17:54:01,692 [Worker-219: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:30:49,077 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-16 09:42:10,929 [Worker-3: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-04-16 09:42:10,936 [Worker-3: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:43:10,503 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-04-16 09:43:10,507 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:45:06,670 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-04-16 09:45:06,672 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:45:11,234 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-04-16 09:45:11,236 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:45:31,642 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-04-16 09:45:31,644 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:46:34,722 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-04-16 09:46:34,725 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:47:29,028 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-04-16 09:47:29,030 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:48:14,329 [Worker-26: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-04-16 09:48:14,332 [Worker-26: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:49:01,194 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-04-16 09:49:01,197 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:49:28,744 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-04-16 09:49:28,745 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:49:32,891 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-04-16 09:49:32,892 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:49:37,664 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-04-16 09:49:37,665 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:52:07,329 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 09:52:07,332 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:53:56,788 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 09:53:56,790 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:54:09,097 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 09:54:09,100 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:54:41,915 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 09:54:41,917 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:54:58,519 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 09:54:58,521 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:55:11,970 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 09:55:11,977 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:55:23,583 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 09:55:23,585 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:55:44,692 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 09:55:44,695 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:55:53,817 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 09:55:53,818 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:56:43,385 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 09:56:43,387 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:57:08,858 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 09:57:08,859 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:58:43,573 [Worker-31: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 09:58:43,575 [Worker-31: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:58:46,366 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 09:58:46,368 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:59:33,223 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 09:59:33,225 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 09:59:44,656 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 09:59:44,658 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:00:19,565 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:00:19,566 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:00:37,980 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:00:37,982 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:00:58,448 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:00:58,450 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:01:15,211 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:01:15,213 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:01:36,160 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:01:36,162 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:01:47,614 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:01:47,615 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:02:05,944 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:02:05,945 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:03:05,260 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:03:05,262 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:05:36,709 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:05:36,712 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:06:14,599 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:06:14,601 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:06:54,405 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:06:54,407 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:07:22,301 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:07:22,303 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:07:27,454 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:07:27,456 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:07:54,599 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:07:54,602 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:09:26,253 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:09:26,255 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:14:00,354 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 10:14:00,358 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:14:16,608 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 10:14:16,610 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:15:10,067 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 10:15:10,069 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:15:42,874 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 10:15:42,876 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:19:36,724 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:19:36,726 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:20:16,820 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 10:20:16,824 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:21:53,190 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 10:21:53,192 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:35:03,869 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 10:35:03,871 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:35:15,576 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 10:35:15,578 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:36:09,705 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:36:09,707 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:37:43,691 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:37:43,692 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:42:01,089 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:42:01,095 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:49:21,950 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 10:49:21,952 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:49:48,742 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 10:49:48,744 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:49:56,638 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 10:49:56,640 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:49:58,742 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 10:49:58,745 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:50:43,131 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 10:50:43,132 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:50:48,793 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 10:50:48,796 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 10:54:31,641 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 10:54:31,644 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:00:00,736 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:00:00,740 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:00:17,770 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:00:17,772 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:01:23,473 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:01:23,477 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:01:37,334 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:01:37,336 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:02:11,299 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:02:11,302 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:03:35,468 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:03:35,470 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:06:54,113 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:06:54,115 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:07:46,165 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:07:46,168 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:07:59,301 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:07:59,303 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:08:19,170 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:08:19,172 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:08:28,404 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:08:28,407 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:10:18,866 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:10:18,867 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:10:43,517 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:10:43,519 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:11:02,054 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:11:02,056 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:12:03,571 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:12:03,575 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:13:23,339 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:13:23,342 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:14:53,939 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 11:14:53,941 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:14:59,913 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-04-16 11:14:59,915 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:15:19,687 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:15:19,690 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:15:24,997 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:15:24,998 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:16:08,960 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:16:08,963 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:16:12,505 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:16:12,507 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:16:30,027 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:16:30,029 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:18:23,019 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:18:23,021 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:18:31,912 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:18:31,914 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:18:51,979 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-16 11:18:51,982 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\basic\src\test\resources
+2024-04-16 11:26:20,542 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234 [354])
+2024-04-16 11:26:20,543 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234
+2024-04-16 11:26:20,543 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\aopalliance-1.0.jar
+2024-04-16 11:26:20,543 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\guice-5.1.0.jar
+2024-04-16 11:26:20,543 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\httpclient-4.5.14.jar
+2024-04-16 11:26:20,543 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\httpcore-4.4.16.jar
+2024-04-16 11:26:20,543 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\jansi-2.4.0.jar
+2024-04-16 11:26:20,543 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\jcl-over-slf4j-1.7.36.jar
+2024-04-16 11:26:20,543 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-artifact-3.9.6.jar
+2024-04-16 11:26:20,544 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-builder-support-3.9.6.jar
+2024-04-16 11:26:20,544 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-compat-3.9.6.jar
+2024-04-16 11:26:20,544 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-core-3.9.6.jar
+2024-04-16 11:26:20,544 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-embedder-3.9.6.jar
+2024-04-16 11:26:20,544 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-model-3.9.6.jar
+2024-04-16 11:26:20,544 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-model-builder-3.9.6.jar
+2024-04-16 11:26:20,544 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-plugin-api-3.9.6.jar
+2024-04-16 11:26:20,544 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-repository-metadata-3.9.6.jar
+2024-04-16 11:26:20,544 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-api-1.9.18.jar
+2024-04-16 11:26:20,544 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-connector-basic-1.9.18.jar
+2024-04-16 11:26:20,544 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-impl-1.9.18.jar
+2024-04-16 11:26:20,544 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-named-locks-1.9.18.jar
+2024-04-16 11:26:20,544 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-provider-3.9.6.jar
+2024-04-16 11:26:20,545 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-spi-1.9.18.jar
+2024-04-16 11:26:20,545 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-file-1.9.18.jar
+2024-04-16 11:26:20,545 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-http-1.9.18.jar
+2024-04-16 11:26:20,545 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-wagon-1.9.18.jar
+2024-04-16 11:26:20,545 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-util-1.9.18.jar
+2024-04-16 11:26:20,545 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-settings-3.9.6.jar
+2024-04-16 11:26:20,545 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-settings-builder-3.9.6.jar
+2024-04-16 11:26:20,545 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-shared-utils-3.3.4.jar
+2024-04-16 11:26:20,545 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\org.eclipse.sisu.inject-0.9.0.M2.jar
+2024-04-16 11:26:20,545 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\org.eclipse.sisu.plexus-0.9.0.M2.jar
+2024-04-16 11:26:20,546 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-build-api-0.0.7.jar
+2024-04-16 11:26:20,546 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-cipher-2.0.jar
+2024-04-16 11:26:20,546 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-classworlds-2.7.0.jar
+2024-04-16 11:26:20,546 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-component-annotations-2.1.0.jar
+2024-04-16 11:26:20,546 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-interpolation-1.26.jar
+2024-04-16 11:26:20,546 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-sec-dispatcher-2.0.jar
+2024-04-16 11:26:20,546 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-utils-3.5.1.jar
+2024-04-16 11:26:20,546 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-file-3.5.3.jar
+2024-04-16 11:26:20,546 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-http-3.5.3.jar
+2024-04-16 11:26:20,546 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-http-shared-3.5.3.jar
+2024-04-16 11:26:20,546 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-provider-api-3.5.3.jar
+2024-04-16 11:26:20,547 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.0.0.jre [27])
+2024-04-16 11:26:20,547 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\com.google.guava_33.0.0.jre.jar
+2024-04-16 11:26:20,547 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.12 [583])
+2024-04-16 11:26:20,547 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\slf4j.api_2.0.12.jar
+2024-04-16 11:26:20,547 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [44])
+2024-04-16 11:26:20,547 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-04-16 11:26:20,547 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [40])
+2024-04-16 11:26:20,547 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\jakarta.annotation-api_1.3.5.jar
+2024-04-16 11:26:20,547 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.6.0 [75])
+2024-04-16 11:26:20,548 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.apache.commons.cli_1.6.0.jar
+2024-04-16 11:26:20,548 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [77])
+2024-04-16 11:26:20,548 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-04-16 11:26:20,548 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [81])
+2024-04-16 11:26:20,548 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.apache.commons.lang3_3.14.0.jar
+2024-04-16 11:26:20,548 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [29])
+2024-04-16 11:26:20,548 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-04-16 11:26:20,550 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\user\AppData\Local\Temp\m2e-archetypeGenerator2851564737058913002":
+2024-04-16 11:26:20,551 [Worker-79: Launching mavenrun-122a5dce-6540-492c-872e-4d324cf0a7a5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.1 -DgroupId=com.mysite -DartifactId=member1 -Dversion=0.0.1-SNAPSHOT -Dpackage=com.mysite.member1 -DoutputDirectory=C:\WON\SpringWork\STSWork -Dstyle.color=always -U archetype:generate
+2024-04-16 11:26:28,270 [Worker-81: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\WON\SpringWork\STSWork\member1\pom.xml
+2024-04-16 11:26:29,013 [Worker-81: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mysite:member1:0.0.1-SNAPSHOT @ C:\WON\SpringWork\STSWork\member1\pom.xml.
+2024-04-16 11:26:29,416 [Worker-81: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /member1/src/main/java
+2024-04-16 11:26:29,417 [Worker-81: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /member1/src/main/resources
+2024-04-16 11:26:29,425 [Worker-81: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /member1/src/test/java
+2024-04-16 11:26:29,426 [Worker-81: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /member1/src/test/resources
+2024-04-16 11:26:29,523 [Worker-81: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2024-04-16 11:26:29,992 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 11:26:29,993 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 11:41:43,806 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 11:41:43,807 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 11:44:12,050 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 11:44:12,051 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 11:46:59,648 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 11:46:59,649 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 11:52:47,540 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 11:52:47,541 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 11:53:26,018 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 11:53:26,020 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 11:54:06,469 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 11:54:06,470 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 11:59:24,241 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 11:59:24,241 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 11:59:49,507 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 11:59:49,508 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:01:24,062 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:01:24,062 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:01:55,074 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:01:55,075 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:02:13,817 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:02:13,818 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:05:18,967 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:05:18,968 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:05:23,853 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:05:23,854 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:07:15,153 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:07:15,153 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:07:20,580 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:07:20,581 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:07:33,359 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:07:33,359 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:08:44,629 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:08:44,629 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:09:16,396 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:09:16,397 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:13:13,303 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:13:13,304 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:13:32,361 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:13:32,362 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:13:33,373 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:13:33,374 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:16:57,995 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:16:57,996 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:18:26,245 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:18:26,246 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:18:48,292 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:18:48,293 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:19:14,987 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:19:14,988 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:19:35,341 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:19:35,342 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:19:50,644 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:19:50,645 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:21:05,121 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:21:05,122 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:32:53,930 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:32:53,930 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:33:55,058 [Worker-106: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:33:55,058 [Worker-106: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:33:59,380 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:33:59,380 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:34:36,419 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:34:36,420 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:40:27,650 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:40:27,650 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:44:38,362 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:44:38,364 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:45:37,899 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:45:37,899 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:47:04,549 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:47:04,551 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:48:59,009 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:48:59,010 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:57:16,599 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:57:16,600 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 12:58:01,302 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 12:58:01,304 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 13:00:03,480 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 13:00:03,481 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 13:01:40,956 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 13:01:40,957 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 13:04:50,876 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 13:04:50,877 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 13:05:49,376 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 13:05:49,376 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 13:06:00,356 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 13:06:00,356 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 13:09:01,878 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 13:09:01,879 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 13:10:33,028 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 13:10:33,031 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 13:10:36,409 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 13:10:36,410 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 13:11:05,490 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 13:11:05,491 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 13:13:35,740 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 13:13:35,740 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 13:15:50,087 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 13:15:50,088 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 13:16:03,851 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 13:16:03,852 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 13:16:06,171 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 13:16:06,172 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 14:33:11,023 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 14:33:11,025 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 14:33:47,327 [Worker-127: Launching App (7)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 14:33:47,327 [Worker-127: Launching App (7)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 14:33:52,634 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 14:33:52,635 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 14:34:44,607 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 14:34:44,607 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 14:35:07,060 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 14:35:07,061 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 14:36:32,965 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 14:36:32,966 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 14:36:36,470 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 14:36:36,471 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 14:36:53,238 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 14:36:53,239 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 14:39:45,407 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 14:39:45,408 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 14:39:48,356 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 14:39:48,357 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 14:39:49,394 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 14:39:49,394 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 14:41:38,519 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 14:41:38,520 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 14:43:56,126 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 14:43:56,127 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 14:53:58,304 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 14:53:58,305 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 14:54:15,721 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 14:54:15,722 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 14:57:09,345 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 14:57:09,346 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 14:57:11,952 [Worker-146: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 14:57:11,953 [Worker-146: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:02:00,638 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:02:00,639 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:02:05,263 [Worker-150: Launching App (7)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:02:05,264 [Worker-150: Launching App (7)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:11:31,618 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:11:31,619 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:11:42,434 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:11:42,434 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:11:47,589 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:11:47,589 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:11:50,771 [Worker-158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:11:50,772 [Worker-158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:14:29,408 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:14:29,408 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:34:30,623 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:34:30,624 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:34:33,332 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:34:33,333 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:36:55,584 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:36:55,586 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:37:22,854 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:37:22,855 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:37:45,817 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:37:45,818 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:43:18,980 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:43:18,980 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:44:39,931 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:44:39,932 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:44:44,590 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:44:44,591 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:45:26,052 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:45:26,053 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:46:37,058 [Worker-167: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:46:37,059 [Worker-167: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:47:47,298 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:47:47,299 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:49:30,031 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:49:30,032 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:52:39,120 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:52:39,120 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:52:54,678 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:52:54,678 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:54:27,187 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:54:27,187 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 15:59:23,135 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 15:59:23,136 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:02:02,322 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:02:02,323 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:02:51,131 [Worker-179: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:02:51,132 [Worker-179: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:05:11,262 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:05:11,262 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:05:19,661 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:05:19,662 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:06:50,936 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:06:50,936 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:09:21,014 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:09:21,014 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:10:10,185 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:10:10,186 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:10:25,222 [Worker-182: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:10:25,223 [Worker-182: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:11:28,694 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:11:28,695 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:12:10,061 [Worker-182: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:12:10,062 [Worker-182: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:12:16,865 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:12:16,865 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:12:25,885 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:12:25,887 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:13:26,463 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:13:26,464 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:14:39,307 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:14:39,308 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:15:13,978 [Worker-182: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:15:13,978 [Worker-182: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:15:17,570 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:15:17,571 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:15:18,595 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:15:18,596 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:15:22,796 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:15:22,797 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:16:27,051 [Worker-182: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:16:27,051 [Worker-182: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:16:41,742 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:16:41,743 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:16:44,101 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:16:44,101 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:16:59,766 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:16:59,767 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:17:30,946 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:17:30,947 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:17:45,106 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:17:45,106 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:17:53,796 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:17:53,797 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:18:18,367 [Worker-187: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:18:18,367 [Worker-187: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:18:54,898 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:18:54,898 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources
+2024-04-16 16:19:49,608 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\main\resources
+2024-04-16 16:19:49,609 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\WON\SpringWork\STSWork\member1\src\test\resources

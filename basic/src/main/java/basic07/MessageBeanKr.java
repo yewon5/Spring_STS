@@ -2,10 +2,8 @@ package basic07;
 
 import org.springframework.stereotype.Component;
 
-import basic05.Outputter;
-
 //어노테이션으로 MessageBeanKr 클래스의 객체 생성.
-@Component("msgKr")
+@Component
 public class MessageBeanKr implements MessageBean{
 	private String name;
 	private String age;

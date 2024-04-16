@@ -1,0 +1,7 @@
+package basic08;
+
+//파일, 네트워크, 모니터 등 다양한 장치로 출력할 수 있도록
+public interface Outputter {
+	void output(String msg) throws Exception;
+	
+}

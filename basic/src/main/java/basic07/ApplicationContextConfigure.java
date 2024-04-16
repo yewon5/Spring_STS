@@ -9,8 +9,8 @@ public class ApplicationContextConfigure {
 	@Bean
 	public MessageBean getMessageKr() {
 		//생성자 방식
-		MessageBeanKr kr = new MessageBeanKr("홍길동", "20", getOutputter()); //설정 파일 <bean id="msgKr" class="basic06.MessageBeanKr">와 같은 코드
-			return kr;
+		MessageBeanKr kr = new MessageBeanKr("홍길동", "40", getOutputter()); //설정 파일 <bean id="msgKr" class="basic06.MessageBeanKr">와 같은 코드
+		return kr;
 	}
 	
 	@Bean
@@ -21,5 +21,11 @@ public class ApplicationContextConfigure {
 			en.setName("hong");
 			en.setOutputter(getOutputter());
 			return en;
+	}
+	
+	public Outputter getOutputter() {
+		FileOutputter outputter = new FileOutputter();
+		outputter.setFilePath("c:\\WON\\greeting2.txt");
+		return outputter;
 	}
 }

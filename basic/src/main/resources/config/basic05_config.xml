@@ -4,7 +4,7 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
        
-	<!-- id=주소저장 class=객체생성 -->
+	<!-- id=주소저장하는 참조 변수 class=객체생성 -->
 	<bean id="messageBean" class="basic05.MessageBeanImpl">
 		<!-- 1번 방식. constructor-arg 생성자를 통해서 인자 값을 넘겨줌. 초기값 넣기 -->
 		<!--

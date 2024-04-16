@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- byName 방식 -->
+	<!--
+	<bean id="messageBean" class="basic08.MessageBeanImpl" autowire="byName">
+		//setName(String name), setAge(int age) 호출함. 세터메서드에 의한 의존성 주입
+		<property name="name" value="길동"></property> 
+		<property name="age" value="30"></property> 
+		//<property name="outputter" ref="outputter"></property> 
+		//name=setOutputter(Outputter outputter) 메서드. 이름은(소문자)! ref=bean 객체의 id 값. 참조변수
+	</bean>
+	
+	<bean id="outputter" class="basic08.FileOutputter">
+		<property name="filePath" value="c:\\WON\\greeting8.txt"></property>
+	</bean>
+	-->
+	
+	<!-- byType 방식 -->
+	<!-- 
+	<bean id="messageBean" class="basic08.MessageBeanImpl" autowire="byType">
+		<property name="name" value="길동"></property> 
+		<property name="age" value="30"></property> 
+	</bean>
+	
+	<bean id="aaa" class="basic08.FileOutputter">
+	//id 이름이 달라도 "setOutputter(Outputter outputter)" Outputter 타입으로 찾음
+		<property name="filePath" value="c:\\WON\\greeting8.txt"></property>
+	</bean>
+	-->
+	
+	<!-- 어노테이션 방식 -->
+	<!-- @Autowired setOutputter 메서드에 어노테이션 해준다. -->
+	<context:component-scan base-package="basic08"></context:component-scan>
+	
+	<bean id="messageBean" class="basic08.MessageBeanImpl">
+		<property name="name" value="길동"></property> 
+		<property name="age" value="30"></property> 
+	</bean>
+	
+	<bean id="outputter" class="basic08.FileOutputter">
+		<property name="filePath" value="c:\\WON\\greeting8.txt"></property>
+	</bean>
+</beans>

@@ -7,7 +7,7 @@
         http://www.springframework.org/schema/context
         https://www.springframework.org/schema/context/spring-context.xsd">
 
-	<!-- 아래 코드를 사용하기 전 위의 컨텍스트 태그 xmlns:context 확인 -->
+	<!-- 아래 코드를 사용하기 전 위의 xmlns:context 설계도 확인 -->
 	<context:component-scan base-package="basic06"></context:component-scan>
 		
     <!--   

@@ -4,8 +4,6 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import basic05.MessageBean;
-
 //
 public class App {
 	private static ApplicationContext ctx; //프로젝트 안에 있는 리소스를 가져다 씀
@@ -15,7 +13,7 @@ public class App {
     	//ctx = new AnnotationConfigApplicationContext("basic06"); //어노테이션 스캐너
     	
     	//한국어로 자기소개
-    	basic06.MessageBean bean = ctx.getBean("msgKr", basic06.MessageBean.class);
+    	MessageBean bean = ctx.getBean("msgKr", basic06.MessageBean.class);
     	bean.sayHello();
     	
     	//영어로 자기소개
