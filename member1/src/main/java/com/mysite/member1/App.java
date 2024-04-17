@@ -21,12 +21,14 @@ import com.mysite.member1.service.MemberRegisterService;
  */
 
 public class App {
-	static MemberRegisterService regSvc = new MemberRegisterService(); //반복문때문에 객체가 계속 생성되어서 조건문 밖에다 선언해준다.
-	static ChangePasswordService changePwdSvc = new ChangePasswordService();
+	//static MemberRegisterService regSvc = new MemberRegisterService(); //반복문때문에 객체가 계속 생성되어서 조건문 밖에다 선언해준다.
+	//static ChangePasswordService changePwdSvc = new ChangePasswordService();
+	private Factory factory = Factory.newInstance();
 	
     public static void main( String[] args ) throws IOException{	
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); //InputStreamReader 바이트스트림을 문자로 바꿔주는 것
-
+    	App app = new App();
+    	
     	while(true) {
         	System.out.println("명령어를 입력하세요 : ");
 	    	String command = br.readLine();
@@ -37,36 +39,37 @@ public class App {
 	    	}
 	    	else if (command.startsWith("new ")) { //new뒤에 공백 표시
 	    		//회원 가입
-	    		newCommand(command.split(" ")); //공백을 기준으로 입력 받은 값 배열로 분리
+	    		app.newCommand(command.split(" ")); //공백을 기준으로 입력 받은 값 배열로 분리
 	    	}
 	    	else if (command.startsWith("change ")) {
 	    		//회원 정보(암호) 수정
-	    		changeCommand(command.split(" "));
+	    		app.changeCommand(command.split(" "));
 	    	}
 	    	else if (command.equalsIgnoreCase("list")) {
 	    		//전체 회원 조회
-	    		listCommand();
+	    		app.listCommand();
 	    	}
     	}//end while
     } //end 메인 메서드
     
-    public static void newCommand(String[] commands) {
+    public void newCommand(String[] commands) {
 		RegisterRequest req = new RegisterRequest();
 		req.setEmail(commands[1]);
 		req.setName(commands[2]);
 		req.setPassword(commands[3]);
 		req.setPasswordConfirm(commands[4]);
 		
+		MemberRegisterService regSvc = factory.getMemberRegisterService();
 		regSvc.register(req);
     }
     
-    public static void changeCommand(String[] commands) {
-		changePwdSvc.changePassword(commands[1], commands[2], commands[3]);
+    public void changeCommand(String[] commands) {
+    	factory.getChangePasswordService().changePassword(commands[1], commands[2], commands[3]);
 		System.out.println("암호가 변경되었습니다.");
     }
     
-    public static void listCommand() {
-    	Collection<Member> member = regSvc.selectAll();
+    public void listCommand() {
+    	Collection<Member> member = factory.getMemberRegisterService().selectAll();
 		for(Member mem : member) {
 			System.out.println(mem.getId() + "\t" + mem.getName() + "\t" + mem.getEmail() + "\t" + mem.getRegisterDate() + "\t" + mem.getPassword());
 		}
