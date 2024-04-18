@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mysite.member3.AppTest" time="0.013" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="MS949"/>
+    <property name="java.class.path" value="C:\WON\SpringWork\STSWork\member3\target\test-classes;C:\WON\SpringWork\STSWork\member3\target\classes;C:\Users\user\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\user\.m2\repository\com\oracle\database\jdbc\ojdbc10\19.22.0.0\ojdbc10-19.22.0.0.jar;C:\Users\user\.m2\repository\org\springframework\spring-context\5.3.34\spring-context-5.3.34.jar;C:\Users\user\.m2\repository\org\springframework\spring-aop\5.3.34\spring-aop-5.3.34.jar;C:\Users\user\.m2\repository\org\springframework\spring-beans\5.3.34\spring-beans-5.3.34.jar;C:\Users\user\.m2\repository\org\springframework\spring-core\5.3.34\spring-core-5.3.34.jar;C:\Users\user\.m2\repository\org\springframework\spring-jcl\5.3.34\spring-jcl-5.3.34.jar;C:\Users\user\.m2\repository\org\springframework\spring-expression\5.3.34\spring-expression-5.3.34.jar;C:\Users\user\.m2\repository\org\springframework\spring-jdbc\5.3.34\spring-jdbc-5.3.34.jar;C:\Users\user\.m2\repository\org\springframework\spring-tx\5.3.34\spring-tx-5.3.34.jar;C:\Users\user\.m2\repository\com\mchange\c3p0\0.10.0\c3p0-0.10.0.jar;C:\Users\user\.m2\repository\com\mchange\mchange-commons-java\0.3.0\mchange-commons-java-0.3.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-dbcp2\2.12.0\commons-dbcp2-2.12.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-pool2\2.12.0\commons-pool2-2.12.0.jar;C:\Users\user\.m2\repository\commons-logging\commons-logging\1.3.0\commons-logging-1.3.0.jar;C:\Users\user\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\user\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Seoul"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="KR"/>
+    <property name="sun.boot.library.path" value="C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire15910299247313737533\surefirebooter-20240418130751867_3.jar C:\Users\user\AppData\Local\Temp\surefire15910299247313737533 2024-04-18T13-07-51_459-jvmRun1 surefire-20240418130751867_1tmp surefire_0-20240418130751867_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\WON\SpringWork\STSWork\member3\target\test-classes;C:\WON\SpringWork\STSWork\member3\target\classes;C:\Users\user\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\user\.m2\repository\com\oracle\database\jdbc\ojdbc10\19.22.0.0\ojdbc10-19.22.0.0.jar;C:\Users\user\.m2\repository\org\springframework\spring-context\5.3.34\spring-context-5.3.34.jar;C:\Users\user\.m2\repository\org\springframework\spring-aop\5.3.34\spring-aop-5.3.34.jar;C:\Users\user\.m2\repository\org\springframework\spring-beans\5.3.34\spring-beans-5.3.34.jar;C:\Users\user\.m2\repository\org\springframework\spring-core\5.3.34\spring-core-5.3.34.jar;C:\Users\user\.m2\repository\org\springframework\spring-jcl\5.3.34\spring-jcl-5.3.34.jar;C:\Users\user\.m2\repository\org\springframework\spring-expression\5.3.34\spring-expression-5.3.34.jar;C:\Users\user\.m2\repository\org\springframework\spring-jdbc\5.3.34\spring-jdbc-5.3.34.jar;C:\Users\user\.m2\repository\org\springframework\spring-tx\5.3.34\spring-tx-5.3.34.jar;C:\Users\user\.m2\repository\com\mchange\c3p0\0.10.0\c3p0-0.10.0.jar;C:\Users\user\.m2\repository\com\mchange\mchange-commons-java\0.3.0\mchange-commons-java-0.3.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-dbcp2\2.12.0\commons-dbcp2-2.12.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-pool2\2.12.0\commons-pool2-2.12.0.jar;C:\Users\user\.m2\repository\commons-logging\commons-logging\1.3.0\commons-logging-1.3.0.jar;C:\Users\user\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\user\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="ko"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\WON\SpringWork\STSWork\member3"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire15910299247313737533\surefirebooter-20240418130751867_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.10+7"/>
+    <property name="user.name" value="user"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="MS949"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.10+7"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.dir" value="C:\WON\SpringWork\STSWork\member3"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="MS949"/>
+    <property name="java.library.path" value="C:\WON\SpringWork\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/WON/SpringWork/sts-4.22.0.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/WON/SpringWork/sts-4.22.0.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Java\jdk-17\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Bandizip\;C:\WON\tomcat9\bin;C:\Program Files\Git\cmd;C:\Users\user\AppData\Local\Microsoft\WindowsApps;;C:\WON\SpringWork\sts-4.22.0.RELEASE;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.10+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testApp" classname="com.mysite.member3.AppTest" time="0.001"/>
+</testsuite>

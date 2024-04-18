@@ -28,6 +28,7 @@ public class ChangePasswordService {
 			return;
 		}
 		
+		
 		// 현재 비밀번호가 맞는지 검사
 		if(!member.getPassword().equals(oldPass)) {
 			System.out.println("현재 비밀번호가 맞지 않습니다.");

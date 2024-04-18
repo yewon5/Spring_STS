@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.mysite.member3.OracleConnectTest
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.mysite.member3.OracleConnectTest

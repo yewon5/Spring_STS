@@ -9,7 +9,7 @@ public class Member {
 	private String password;
 	private Date registerDate; //util패키지의 데이트.
 	
-	//id는 따로 생성할것임.
+	//생성자를 통해서 값을 넣어줌. id는 따로 생성할것임.
 	public Member(String name, String email, String password, Date registerDate) {
 		this.name = name;
 		this.email = email;
