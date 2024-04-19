@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- 응용프로그램에서는 id가 변수이름, name은 별명이지만, 웹프로그램에서 name은 사용자가 어떤 요청을 보냈는지를 지정하는 값 -->
+	<bean name="/spring1.action" class="webproject1.controller.SpringController"></bean>
+	
+	<bean name="/spring2.action" class="webproject1.controller.SpringController2"></bean>
+
+</beans>
