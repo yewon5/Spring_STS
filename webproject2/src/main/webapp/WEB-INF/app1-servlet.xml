@@ -10,6 +10,7 @@
 	<context:component-scan base-package="controller"></context:component-scan>
 	
 	<!-- 응용프로그램에서는 id가 변수이름, name은 별명이지만, 웹프로그램에서 name은 사용자가 어떤 요청을 보냈는지를 지정하는 값 -->
+	<!-- "/"요청이 들어왔을때 FirstController 실행 -->
 	<bean name="/" class="controller.FirstController"></bean>
 	
 	<!-- @Controller 어노테이션으로 해당 코드 필요없음

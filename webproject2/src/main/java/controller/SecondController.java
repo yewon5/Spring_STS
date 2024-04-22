@@ -1,9 +1,13 @@
 package controller;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -29,7 +33,7 @@ public class SecondController {
 		//클라이언트가 보내온 데이터를 잘 받아왔다면 second.js에 전달해야한다.
 		//페이지이동만 하는 것이 아니라 값을 전달하려면 ModelAndView 클래스로 설정하고, addObject 메서드를 통해서 second.jsp에 값을 전달한다.
 		
-		ModelAndView mv = new ModelAndView("/WEB-INF/views/second.jsp");
+		ModelAndView mv = new ModelAndView("/WEB-INF/views/second.jsp"); //객체에 담아서 주소 전달
 		mv.addObject("param1", p1);
 		mv.addObject("param2", p2);
 		
@@ -61,7 +65,7 @@ public class SecondController {
 	/*
 	//Model객체 방식
 	@GetMapping("/fourth")
-	public String fourthPage(String name, int age, double point, Model model) { //ModelAndView방식 말고 Model객체 사용
+	public String fourthPage(String name, int age, double point, Model model) { //ModelAndView방식 말고 Model객체 사용하여 전달
 		User user = new User();
 		user.setName(name);
 		user.setAge(age);
@@ -75,7 +79,7 @@ public class SecondController {
 	
 	//ModelAndView 클래스 방식
 	@GetMapping("/fourth")
-	public ModelAndView fourthPage(String name, int age, double point) { //ModelAndView방식 말고 Model객체 사용
+	public ModelAndView fourthPage(String name, int age, double point) {
 		User user = new User();
 		user.setName(name);
 		user.setAge(age);
@@ -95,5 +99,45 @@ public class SecondController {
 		mv.addObject("chk", chk);
 		
 		return mv; //컨트롤러가 fourth(view)에게 넘겨주기 위해서는 DTO가 필요하다. User DTO 준비
+	}
+	
+	@RequestMapping("/fifth")
+	public ModelAndView fifthPage(ModelAndView mv) { //ModelAndView객체를 생성하고, list에 데이터를 담아준다.
+		List list = new ArrayList();
+		list.add("쌀국수");
+		list.add("돼지갈비");
+		list.add("뇨끼");
+		list.add("피자");
+		
+		//데이터를 Map으로 묶어보기
+		Map map = new HashMap<String, String>();
+		map.put("f1", "딸기");
+		map.put("f2", "파인애플");
+		map.put("f3", "대추방울토마토");
+		
+		//2개의 리스트를 1개로 묶기위해 Map을 사용
+		List listDay = new ArrayList<String>();
+		listDay.add("목요일");
+		listDay.add("금요일");
+		listDay.add("토요일");
+		listDay.add("일요일");
+		
+		List listMovie = new ArrayList<String>();
+		listMovie.add("범죄도시");
+		listMovie.add("아이언맨");
+		listMovie.add("트와일라잇");
+		listMovie.add("암살");
+		
+		Map maps = new HashMap<String, List>(); //key는 String 값은 list
+		maps.put("day", listDay);
+		maps.put("movie", listMovie);
+		
+		
+		mv.setViewName("/WEB-INF/views/fifth.jsp"); //ModelAndView 객체에 뷰의 이름을 설정
+		mv.addObject("foods", list); //ModelAndView 객체에 리스트를 "foods"라는 이름으로 추가 
+		mv.addAllObjects(map); //Map addAllObjects
+		mv.addAllObjects(maps);
+				
+		return mv; //foods와 fifth.jsp 뷰를 반환
 	}
 }

@@ -30,5 +30,8 @@
 		<input type="checkbox" name="chk" value="yes"/>동의 여부<br>
 		<input type="submit" value="전송"/><br>
 	</form>
+	<br><br>
+	
+	<a href="/webproject2/fifth">다섯번째 요청</a>
 </body>
 </html>
