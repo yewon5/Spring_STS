@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc 
+        https://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+	<!-- 어노테이션 스캐너 -->
+	<context:component-scan base-package="controller" />
+	
+	<!-- HandlerMapping 방식
+	mvc:view-controller : IndexController 없이 페이지 실행 -->
+	<mvc:view-controller path="/" view-name="index"/>
+	
+	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"></bean>
+	
+	<!-- BeanNameUrlHandlerMapping은 bean의 name속성을 통해 사용자의 요청을 받음. 따로 설정하지 않아도 기본값으로 셋팅되어있다. 
+	SimpleUrlHandlerMapping로 설정하면 name을 못찾아서 에러남. BeanNameUrlHandlerMapping를 직접 명시를 해줘야 한다. 
+	SimpleUrlHandlerMapping은 요청을 하나로 묶어줄 수 있다. -->
+	<bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"></bean>
+
+	<bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<props>
+				<!--<prop key="/">indexController</prop>-->
+				<prop key="/first">firstController</prop>
+				<prop key="/second">secondController</prop>
+				<prop key="/third">thirdController</prop>
+			</props>
+		</property>
+	</bean>
+	
+	<!--<bean id="indexController" class="controller.IndexController"></bean>-->
+	<bean id="firstController" class="controller.FirstController"></bean>
+	<bean id="secondController" class="controller.SecondController"></bean>
+	<bean id="thirdController" class="controller.ThirdController"></bean>
+	
+	<!-- 어노테이션 미사용시 bean태그 등록 필수 -->
+	<!--<bean name="/" class="controller.IndexController"></bean>-->
+	<bean name="/first" class="controller.FirstController"></bean>
+	<bean name="/second" class="controller.SecondController"></bean>
+	<bean name="/third" class="controller.ThirdController"></bean>
+	
+	
+	<!-- View Resolver 방식 -->
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="suffix">
+			<value>.jsp</value>
+		</property>
+		
+		<property name="prefix">
+			<value>/WEB-INF/views/</value>
+		</property>
+
+		<property name="viewClass">
+			<value>org.springframework.web.servlet.view.InternalResourceView</value>
+		</property>
+	</bean>
+	
+	<bean class="org.springframework.web.servlet.view.ResourceBundleViewResolver"></bean>
+	
+	
+</beans>
