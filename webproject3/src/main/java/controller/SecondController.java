@@ -9,6 +9,6 @@ import org.springframework.web.servlet.mvc.AbstractController;
 public class SecondController extends AbstractController{
 	@Override
 	protected ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response) throws Exception {
-		return new ModelAndView("result").addObject("msg", "SecondController");
+		return new ModelAndView("second").addObject("msg", "SecondController");
 	}
 }

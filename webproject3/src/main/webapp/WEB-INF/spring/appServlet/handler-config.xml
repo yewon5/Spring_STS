@@ -10,13 +10,7 @@
         http://www.springframework.org/schema/mvc 
         https://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-	<!-- 어노테이션 스캐너 -->
-	<context:component-scan base-package="controller" />
-	
-	<!-- HandlerMapping 방식
-	mvc:view-controller : IndexController 없이 페이지 실행 -->
-	<mvc:view-controller path="/" view-name="index"/>
-	
+	<!-- HandlerMapping 방식 -->
 	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"></bean>
 	
 	<!-- BeanNameUrlHandlerMapping은 bean의 name속성을 통해 사용자의 요청을 받음. 따로 설정하지 않아도 기본값으로 셋팅되어있다. 
@@ -45,24 +39,5 @@
 	<bean name="/first" class="controller.FirstController"></bean>
 	<bean name="/second" class="controller.SecondController"></bean>
 	<bean name="/third" class="controller.ThirdController"></bean>
-	
-	
-	<!-- View Resolver 방식 -->
-	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-		<property name="suffix">
-			<value>.jsp</value>
-		</property>
-		
-		<property name="prefix">
-			<value>/WEB-INF/views/</value>
-		</property>
-
-		<property name="viewClass">
-			<value>org.springframework.web.servlet.view.InternalResourceView</value>
-		</property>
-	</bean>
-	
-	<bean class="org.springframework.web.servlet.view.ResourceBundleViewResolver"></bean>
-	
 	
 </beans>
