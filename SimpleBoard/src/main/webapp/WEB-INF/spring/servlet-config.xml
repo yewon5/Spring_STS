@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns:beans="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns="http://www.springframework.org/schema/mvc"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc 
+        https://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+	<!-- Spring MVC 구성 -->
+	<annotation-driven />
+	<!-- 어노테이션 스캔 -->
+	<context:component-scan base-package="com.mysite"></context:component-scan>
+	
+	<!-- Frontend Resources -->
+	<resources location="/resources/" mapping="/**"></resources>
+	
+	<!-- View Resolver bean 방식
+	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="suffix">
+			<value>.jsp</value>
+		</property>
+		
+		<property name="prefix">
+			<value>/WEB-INF/views/</value>
+		</property>
+	</beans:bean>
+	-->
+
+	<!-- View Resolver MVC 방식 -->
+	<view-resolvers>
+		<jsp prefix="/WEB-INF/views/" />
+		<jsp suffix=".jsp" />
+	</view-resolvers>
+
+	<!-- Controller.java 없이 메인페이지 실행 -->
+	<view-controller path="/" view-name="index" />
+
+</beans:beans>
