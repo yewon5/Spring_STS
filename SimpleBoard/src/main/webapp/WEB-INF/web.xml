@@ -40,8 +40,9 @@
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
+			<!-- 설정파일 분리하는 경로 설정 -->
 			<param-value>
-				/WEB-INF/spring/servlet-config.xml
+				/WEB-INF/spring/servlet-config.xml 
 			</param-value>
 		</init-param>
 	</servlet>

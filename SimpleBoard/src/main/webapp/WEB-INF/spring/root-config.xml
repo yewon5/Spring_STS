@@ -12,6 +12,29 @@
 
 	<!-- DB연동 코드 -->
 	
+	<!-- HikariCP -->
+	<!-- 바로 DB랑 연결하는게 아니라서 오라클과 연결해준 뒤 DB랑 연결하는 객체를 따로 생성한다. -->
+	<bean id="HikariConfig" class="com.zaxxer.hikari.HikariConfig">
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+		<property name="jdbcUrl" value="jdbc:oracle:thin:@localhost:1521:xe"/>
+		<property name="username" value="user1"/>
+		<property name="password" value="1111"/>
+	</bean>
 	
+	<!-- DataSourceTest클래스에 데이터를 넘겨줘야함. @ContextConfiguration 사용 -->
+	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource">
+		<constructor-arg ref="HikariConfig"></constructor-arg>
+	</bean>
+	
+	<!-- MyBatis 객체 생성 
+	sqlSession 실제 일을 함, sqlSessionFactory 그 모든 것을 준비해줌 -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"></property>
+		<property name="configLocation" value="classpath:/mybatis-config.xml"></property>
+		<property name="mapperLocations" value="classpath:/mappers/*-mapper.xml"></property>	
+	</bean>
+	<bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate" destroy-method="clearCache">
+		<constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory" />
+	</bean>
 
 </beans>

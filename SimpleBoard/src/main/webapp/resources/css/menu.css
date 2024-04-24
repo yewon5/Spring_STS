@@ -42,3 +42,7 @@ ul > li > a:hover {
     margin-right:auto;
     display: flex;
 }
+
+td {
+    text-align: center;
+}

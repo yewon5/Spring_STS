@@ -5,9 +5,22 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" href="<c:url value='/css/menu.css'/>">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
 </head>
 <body>
-	<h1>게시판 리스트</h1>
+
+	<div id="menu">
+		<ul>
+			<li><a href="<c:url value='/'/>">Home</a></li>
+			<li><a href="<c:url value='/board/list'/>">Board</a></li>
+			<li><a href="<c:url value='${loginOutLink}'/>">${loginOut}</a></li>
+			<li><a href="<c:url value='/member/add'/>">Sign in</a></li>
+			<li><a href=""><i class="fa fa-search"></i></a></li>
+		</ul>
+	</div>
+
+	<h1 >게시판 리스트</h1>
 	<a href="/board/write">글쓰기</a>
 	<br><br>
 	<table border="1">
@@ -26,5 +39,6 @@
 			<td></td>
 		</tr>
 	</table>
+
 </body>
 </html>
