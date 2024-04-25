@@ -7,7 +7,6 @@
 
 </head>
 <body>
-
 	<h1>글 쓰기</h1>
 	<form action="/board/write" method="post">
 		제목 : <input type="text" name="bTitle" ><br><br> 

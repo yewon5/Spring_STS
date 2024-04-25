@@ -39,7 +39,7 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
 			<version>${spring-version}</version>
-			<scope>test</scope> 
+			<scope>test</scope> <!-- 어떤시점에 라이브러리를 사용할것인지. 메모리낭비 방지, 스코프가 없으면 항상 실행함 -->
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
 		<dependency>

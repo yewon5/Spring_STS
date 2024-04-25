@@ -31,13 +31,15 @@
 			<td>등록일</td>
 			<td>조회수</td>
 		</tr>
+	<c:forEach var="board" items="${list }">
 		<tr>
-			<td></td>
-			<td><a href=""></a></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>${board.bNo }</td>
+			<td><a href="/board/read?bNo=${board.bNo}">${board.bTitle }</a></td>
+			<td>${board.bWriter }</td>
+			<td>${board.bRegdate }</td>
+			<td>${board.bViewcnt }</td>
 		</tr>
+	</c:forEach>
 	</table>
 
 </body>

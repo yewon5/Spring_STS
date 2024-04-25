@@ -3,12 +3,25 @@
 <!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.mysite.boardMapper"> <!-- 패키지명을 적는 것이 관례 -->
-	<insert id="write" parameterType="Board"> <!-- mybatis-config.xml에서 만든 별명 -->
+  
+<!-- 패키지명을 적는 것이 관례 -->
+<mapper namespace="com.mysite.boardMapper"> 
+	<!-- id는 BoardDaoImpl 메서드와 같게, mybatis-config.xml에서 만든 별명 
+	BoardDaoImpl에 write메서드에서 mybatis mapper를 불러와 INSERT를 호출-->
+	<insert id="write" parameterType="Board"> 
 		INSERT INTO simpleBoard(bNo, bTitle, bWriter, bContent)
 		VALUES(seq_bno.nextVal, #{bTitle}, #{bWriter}, #{bContent})
 	</insert>
 	
-	<!-- INSERT 어떻게 호출할까? 
-	BoardDaoImpl에 write메서드에서 mybatis mapper를 불러야한다.-->
+	<!-- DB에서 게시판 글 목록을 최신순으로 가져오고 보관을 해야함 
+	id는 BoardDaoImpl 메서드와 같게, mybatis-config.xml에서 만든 별명 -->
+	<select id="getList" resultType="Board">
+		SELECT * FROM simpleboard ORDER BY bno DESC
+	</select>
+	
+	<!-- 제목 눌렀을때 해당글이 보여지도록 
+	BoardDaoImpl에서 read 메서드 타입이 int이기때문에 -->
+	<select id="read" resultType="Board" parameterType="int">
+		SELECT * FROM simpleboard WHERE bno=#{bNo}
+	</select>
 </mapper>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<!-- 패키지명을 적는 것이 관례 -->
+<mapper namespace="com.mysite.memberMapper"> 
+	<insert id="registerMember" parameterType="RegisterRequest">
+		INSERT INTO member(id, name, email, password, registerdate)
+		VALUES (seq_id.nextVal, #{name}, #{email}, #{password}, sysdate)
+	</insert>
+	
+	<select id="selectWithPass" parameterType="RegisterRequest" resultType="Member">
+		SELECT * FROM member WHERE email = #{email} AND password = #{password}
+	</select>
+</mapper>

@@ -17,7 +17,7 @@ public class BoardServiceImpl implements BoardService {
 
 	@Override
 	public List<Board> getList() throws Exception {
-		return null;
+		return boardDao.getList(); // boardDao의 getList() 메서드를 호출하여 게시판 목록을 반환
 	}
 
 	@Override
@@ -27,7 +27,7 @@ public class BoardServiceImpl implements BoardService {
 
 	@Override
 	public Board read(int bNo) throws Exception {
-		return null;
+		return boardDao.read(bNo);
 	}
 
 	@Override

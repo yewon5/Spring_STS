@@ -6,7 +6,7 @@ public class Board {
 	private String bTitle;
 	private String bContent;
 	private String bWriter;
-	private String timestamp; //날짜는 문자열로 처리하는 것이 좋다.
+	private String bRegdate; //날짜는 문자열로 처리하는 것이 좋다.
 	private int bViewcnt;
 	
 	public int getbNo() {
@@ -33,11 +33,11 @@ public class Board {
 	public void setbWriter(String bWriter) {
 		this.bWriter = bWriter;
 	}
-	public String getTimestamp() {
-		return timestamp;
+	public String getbRegdate() {
+		return bRegdate;
 	}
-	public void setTimestamp(String timestamp) {
-		this.timestamp = timestamp;
+	public void setbRegdate(String bRegdate) {
+		this.bRegdate = bRegdate;
 	}
 	public int getbViewcnt() {
 		return bViewcnt;
