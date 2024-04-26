@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- thymeleaf 설계도 -->
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>text-basic.html</title>
+</head>
+<body>
+	<h1>컨텐츠 데이터 출력하기</h1>
+	
+	<h3>변수 빈 값 체크하기</h3>
+	<div th:with="firstVal=${'대한민국'}"> <!-- th:with="" 변수 선언. String firstVa = '대한민국';-->
+		<span th:text="${firstVal}">홍길동</span> <!-- 서버로부터 변수값을 받아서 EL방식으로 출력 -->
+	</div>
+	<br><br>
+	
+	<div th:with="firstVal=${''}, secondValVal=${'222'}" >
+		<span th:text="${firstVal == '' ? secondValVal : firstVal}">홍길동</span> <!-- firstVal가 비어있으면 secondValVal값 그렇지 않으면 firstVal값 -->
+	</div>
+	<hr/>
+	
+	<h3>Model 또는 ModelAndView를 이용해서 데이터 전달</h3>
+	<span th:text="${data1}"></span><br>
+	<span th:text="'안녕하세요' + ${data1}"></span>
+</body>
+</html>
