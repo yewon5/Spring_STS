@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>date</h1>
+	default : [[${localDateTime}]]
+	
+	<hr/>
+	
+	[[${#temporals.format(localDateTime, "yyyy-mm-dd HH:mm:ss")}]]<br>
+	[[${#temporals.format(localDateTime, "yyyy-mm-dd a HH:mm:ss")}]]<br>
+	
+	<hr/>	
+	
+	[[${#temporals.day(localDateTime)}]] // 일(day)<br>
+	[[${#temporals.month(localDateTime)}]] // 월(month)<br>
+	[[${#temporals.monthName(localDateTime)}]] // 월(month)을 문자열로<br>
+	[[${#temporals.monthNameShort(localDateTime)}]] // 월(month)을 짧은 문자열로<br>
+	[[${#temporals.year(localDateTime)}]] // 연(year)<br>
+	[[${#temporals.dayOfWeek(localDateTime)}]] // 요일(day of week)<br>
+	[[${#temporals.dayOfWeekName(localDateTime)}]] // 요일(day of week)을 문자열로<br>
+	[[${#temporals.dayOfWeekNameShort(localDateTime)}]] // 요일(day of week)을 짧은 문자열로<br>
+	[[${#temporals.hour(localDateTime)}]] // 시(hour)<br>
+	[[${#temporals.minute(localDateTime)}]] // 분(minute)<br>
+	[[${#temporals.second(localDateTime)}]] // 초(second)<br>
+	[[${#temporals.nanosecond(localDateTime)}]] // 나노초(nanosecond)<br>
+            
+</body>
+</html>

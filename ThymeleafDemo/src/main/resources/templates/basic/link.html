@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>link</h1>
+	<a th:href="@{/hello}">Basic URL</a><br> <!-- @{} 링크 생성 -->
+	<a th:href="@{/hello(param1=${param1}, param2=${param2})}">query param</a><br>
+	<a th:href="@{/hello/{param1}/{param2}(param1=${path1}, param2=${path2})}">path variavle</a><br> <!-- Rest 방식(로그인) -->
+	<a th:href="@{/hello/{param1}(param1=${path1}, param2=${param2})}">query param + path variavle</a><br>
+	
+	
+	<!-- 
+	URL 경로 패턴은 사람마다 요청메세지가 다 다를 수 있다.
+	/board_delete?=num3
+	/board_del?num=3
+	/delete_board?num=3
+	
+	http 요청 메서드로 통일해준다.(Rest 방식)
+	/board/3
+	-->
+</body>
+</html>

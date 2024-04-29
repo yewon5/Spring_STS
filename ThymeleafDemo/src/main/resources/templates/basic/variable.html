@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>variable</h1>
+	
+	<ul>Object
+		<li>[[${userA.getUserName()}]], [[${userA.getAge()}]]</li> <!-- 스프링EL에서는 메서드이름으로 바로 호출할 수 있다. -->
+		<li>[[${userA.userName}]], [[${userA.age}]]</li> <!-- 기존 EL방식은 메서드를 소문자로 바꿔 속성처럼 사용 -->
+		<li>[[${userA['userName']}]], [[${userA['age']}]]</li> <!-- 기존 EL방식은 대괄호''를 사용 -->
+	</ul>
+	
+	<hr/>
+	
+	<ul th:with="item=${list[1]}">List <!-- with는 지역변수라서 안에서만 사용 가능. 변수를 선언해서 코드를 짧게 줄일 수 있다. -->
+		<li>[[${item.getUserName()}]], [[${item.getAge()}]]</li> <!-- 리스트니까 인덱스로 접근하기 -->
+		<li>[[${item.userName}]], [[${item.age}]]</li>
+		<li>[[${item['userName']}]], [[${item['age']}]]</li>
+	</ul>
+	
+	<hr/>
+	
+	<ul>Map
+		<li>[[${map.get("a").getUserName()}]], [[${map.get("a").getAge()}]]</li>
+		<li>[[${map.get("b").getUserName()}]], [[${map.get("b").getAge()}]]</li><br>
+		<li>[[${map['a'].userName}]], [[${map['a'].age}]]</li>
+		<li>[[${map['b'].userName}]], [[${map['b'].age}]]</li><br>
+		<li>[[${map['a']['userName']}]], [[${map['a']['age']}]]</li>
+		<li>[[${map['b']['userName']}]], [[${map['b']['age']}]]</li>	
+	</ul>
+</body>
+</html>

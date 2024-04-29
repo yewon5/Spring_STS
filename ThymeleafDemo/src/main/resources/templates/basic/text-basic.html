@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>컨텐츠 텍스트 출력하기</h1>
+	
+	Escape처리<br>
+	<ul>
+		<li><span th:text="${data1}"></span></li>
+		<li>[[${data1}]]</li>
+	</ul>
+	
+	<hr/>
+	
+	Unescape처리<br>
+	<ul>
+		<li><span th:text="${data2}"></span></li>
+		<li>[(${data2})]</li>
+	</ul>
+	
+	<hr/>
+	
+	<span th:inline="none">[[...]]과 [(...)]</span><br> <!-- 타임리프 적용하지 않고 html로 사용 -->
+	&lt;aaa> <!-- html은 <aaa> 태그가 특수문자라서 화면에 안 나옴. -->
+	
+</body>
+</html>

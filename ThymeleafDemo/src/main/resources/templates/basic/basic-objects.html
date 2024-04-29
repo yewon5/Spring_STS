@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>basic-objects</h1>
+	request : <span th:text="${userName}"></span><br>
+	session : [[${session.sessionData}]]<br>
+	parameter : [[${param.paramData}]]<br>
+	Spring Bean : [[${@helloBean.hello("Spring~~~")}]]
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>literal</h1>
+	
+	<span th:text="'hello world'"></span><br> <!-- ""큰따옴표 안에는 명령어를 담아야 한다. 텍스트를 ''작은따옴표 안에 넣어야함 -->
+	<span th:text="'hello ' + 'world'"></span><br>
+	<span th:text="'hello ' + ${data} + ' world ' + 100"></span><br> <!-- 숫자는 그냥 쓰면 됨 -->
+	<span th:text="|hello   ${data}   world   100|"></span><br> <!-- '' + 생략하고 ||로 묶어주기 -->
+</body>
+</html>

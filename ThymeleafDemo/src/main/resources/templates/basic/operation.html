@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>operation</h1>
+	
+	[[${10 + 2}]]<br>
+	[[${10 % 2 == 0}]]<br>
+	
+	<hr/>
+	
+	[[${1 lt 10}]]<br> <!-- < 기호대신 lt -->
+	[[${1 &lt; 10}]]<br> <!-- html 엔티티도 가능 -->
+	[[${1 le 10}]]<br> <!-- <= -->
+	
+	<hr/>
+	
+	[[10%2==0?'짝수' : '홀수']]<br>
+		
+	<hr/>
+	
+	[[${data}?:'데이터가 없다']]<br> <!-- 삼항 연산자에서 ${}는 참을 기준 -->
+	[[${nullData}?:'데이터가 없다']]<br>
+	[[${nullData}?:_]]<br> <!-- _는 표시하지 않는다는 의미 -->
+	<span th:text="${data}?:_">데이터 없음</span>
+	<span th:text="${nullData}?:_"></span>
+</body>
+</html>
