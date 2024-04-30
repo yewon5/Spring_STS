@@ -113,4 +113,42 @@ public class BasicController {
 	public String attribute() {
 		return "basic/attribute";
 	}
+	
+	@GetMapping("/each")
+	public String each(Model model) {
+		addUsers(model);
+		return "basic/each";
+	}
+	
+	//사용자로부터 전달 받을 메서드는 아니고 BasicController안에서 소비할 메서드 준비
+	private void addUsers(Model model) {
+		List<User> users = Arrays.asList(new User("userA", 10), new User("userB", 20), new User("userC", 30));
+		
+		model.addAttribute("users", users);
+	}	
+	
+	@GetMapping("/condition")
+	public String condition(Model model) {
+		addUsers(model);
+		return "basic/condition";
+	}
+	
+	@GetMapping("/comments")
+	public String comments(Model model) {
+		model.addAttribute("data", "Hello~~~Spring!!!");
+		return "basic/comments";
+	}
+	
+	@GetMapping("/block")
+	public String block(Model model) {
+		addUsers(model);
+		return "basic/block";
+	}
+	
+	@GetMapping("/javascript")
+	public String javascript(Model model) {
+		model.addAttribute("user", new User("홍길동", 20));
+		addUsers(model);
+		return "basic/javascript";
+	}
 }

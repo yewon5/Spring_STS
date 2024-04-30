@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>condition</h1>
+
+	<table border="1">
+		<tr>
+			<th>번호</th>
+			<th>이름</th>
+			<th>나이</th>
+		</tr>
+		<tr th:each="user, uState : ${users}" th:object="${user}">
+			<td th:text="${uState.count}"></td> <!-- uState 반복문에서 돌아가는 모든 정보를 저장하고 카운터만 꺼내오기 -->
+			<td th:text="*{userName}">데이터 없음</td> <!-- th:with를 사용할 수 없을때, th:object="${user}" 사용할 수 있는데 $대신 *기호로 원하는 데이터만 골라쓸 수 있다. -->
+			<td>
+				<span th:text="*{age}"></span>
+				<span th:text="'미성년자'" th:if="*{age lt 20}"></span> <!-- 나이가 20보다 작을때 -->
+				<span th:text="'미성년자'" th:unless="*{age >= 20}"></span> <!-- 조건식을 제외한 나머지 -->
+			</td>
+		</tr>
+	</table>
+	
+	<hr/>
+
+	
+	<table border="1">
+		<tr>
+			<th>번호</th>
+			<th>이름</th>
+			<th>나이</th>
+		</tr>
+		<tr th:each="user, uState : ${users}" th:object="${user}">
+			<td th:text="${uState.count}"></td>
+			<td th:text="*{userName}">데이터 없음</td>
+			<td th:switch="*{age}"> <!-- 다중 if문 -->
+				<span th:case="10" >10살</span>
+				<span th:case="20" >20살</span>
+				<span th:case="*" >기타</span> <!-- 나머지는 *로 처리 -->
+				
+			
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

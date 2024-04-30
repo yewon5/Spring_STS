@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>fragmentMain</h1>
+	
+	<h2>부분 포함</h2>
+	
+	<h3> Insert 방식 </h3>
+	<!-- <div th:insert="~{template/fragment/footer}"></div><br>  -->
+	<div th:insert="~{template/fragment/footer :: copy1}"></div> <!-- 특정 코드만 가져올 경우 ::콜론 두개를 이용하여 조각코드를 가져온다. -->
+	<div th:insert="template/fragment/footer :: copy2"></div> <!-- 페이지 단위가 아니라 코드 단위로 불러와서 특정 코드를 디테일하게 사용할 수 있다. -->
+	
+	<hr>
+		
+	<h3> Replace 방식 </h3>
+	<div th:replace="~{template/fragment/footer :: copy1}"></div> <!-- div태그를 덮어쓴다. -->
+	
+	<hr>
+	
+	<h3> 파라미터 사용 </h3>
+	<div th:replace="~{template/fragment/footer :: copyParam('홍길동', '20')}"></div>
+		 
+</body>
+</html>

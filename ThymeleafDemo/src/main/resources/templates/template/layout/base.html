@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head th:fragment="common_header(title, links)">
+	<title th:replace="${title}">레이아웃 타이틀</title>
+	
+	<!-- 링크태그가 페이지마다 다를 경우 link태그를 묶어줘야함 -->
+	<th:block th:replace="${links}" />
+	
+	<!-- 공통 코드 -->
+	<link rel="icon" th:href=@{/images/favicon.ico} type="tmage/x-icon">
+	<link rel="stylesheet" type="text/css" th:href=@{/css/awesome.css}>
+</head>

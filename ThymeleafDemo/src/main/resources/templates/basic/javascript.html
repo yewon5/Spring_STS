@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>javascript</h1>
+	
+	<script th:inline="javascript">
+		let username = [[${user.userName}]]
+		console.log(username);
+		
+		let age = [[${user.age}]]
+		alert(age);
+		
+		let users = [[${users}]]
+		console.log(users);
+	</script>
+</body>
+</html>

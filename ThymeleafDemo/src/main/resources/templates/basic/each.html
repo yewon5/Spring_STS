@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>each</h1>
+	<table border="1">
+		<tr>
+			<th>이름</th>
+			<th>나이</th>
+		</tr>
+		<tr th:each="user : ${users}">
+			<td th:text="${user.userName}">데이터 없음</td>
+			<td th:text="${user.age}">0</td>			
+		</tr>
+	</table>
+	
+	<hr/>
+
+	<table border="1">
+		<tr>
+			<th>번호</th>
+			<th>이름</th>
+			<th>나이</th>
+		</tr>
+		<tr th:each="user, uState : ${users}" th:object="${user}"> 
+			<td th:text="${uState.count}"></td>  <!-- uState 반복문에서 돌아가는 모든 정보를 저장하고 카운터만 꺼내오기 -->
+			<td th:text="*{userName}">데이터 없음</td> <!-- th:with를 사용할 수 없을때, th:object="${user}" 사용할 수 있는데 $대신 *기호로 원하는 데이터만 골라쓸 수 있다. -->
+			<td th:text="*{age}">0</td>
+		</tr>
+	</table>
+	
+	<hr/>
+
+	<table border="1">
+		<tr>
+			<th>번호</th>
+			<th>이름</th>
+			<th>나이</th>
+			<th>정보</th>
+		</tr>
+		<tr th:each="user : ${users}" th:object="${user}">
+			<td th:text="${userStat.count}"></td> <!-- uState 변수를 지정하지 않았을때는, 변수명뒤에 Stat을 붙이면 된다-->
+			<td th:text="*{userName}">데이터 없음</td> 
+			<td th:text="*{age}">0</td>
+			<td>
+				index = [[${userStat.index}]]<br>
+				size = [[${userStat.size}]]<br> 
+				even? = [[${userStat.even}]]<br> <!-- 홀짝 -->
+				odd? = [[${userStat.odd}]]<br> <!--  -->
+				first? = [[${userStat.first}]]<br> <!-- 첫번째 데이터인지? -->
+				last? = [[${userStat.last}]]<br> <!-- 마지막 데이터인지? -->
+				current? = [[${userStat.current}]]<br> <!-- 현재 데이터 정보 -->
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

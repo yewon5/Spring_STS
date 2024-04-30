@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>comments</h1>
+	
+	<h2 th:text="${data}"></h2>
+	
+	<hr>
+	
+	<h2>표준 주석</h2>
+	<!-- <span th:text="${data}" ></span> -->
+	
+	<hr>
+		
+	<h2>타임리프 파서 주석</h2>
+	해당 주석 내용은 렌더링에서 주석부분이 제거된다.<br>
+	<!--/* <span th:text="${data}" ></span> */-->
+	
+	<!--/*--> 여러줄 주석
+		<span th:text="${data}" ></span>
+		<span th:text="${data}" ></span>
+	<!--*/-->
+	
+	<hr>
+		
+	<h2>타임리프 프로토타입 주석</h2>
+	HTML파일을 그대로 열면 렌더링되지 않고, 타임리프(서버)를 렌더링한 경우에만 보이는 주석<br>
+	<!--/*/
+		<span th:text="${data}" ></span>
+	/*/-->
+	
+</body>
+</html>
