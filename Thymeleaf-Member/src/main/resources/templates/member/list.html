@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>회원 목록</h1>
+	<a href="/member/insert">회원 추가</a>
+	<br><br>
+	
+	<table border="1">
+		<tr>
+			<th>번호</th>
+			<th>이름</th>
+			<th>주소</th>
+			<th>수정/삭제</th>
+		</tr>
+		<!-- 데이터가 없으면 실행되지 않는 조건식 -->
+		<th:block th:if="${list.size gt 0}"> 
+			<tr th:each="mem : ${list}">
+			    <td>[[${mem.num}]]</td>
+			    <td th:text="${mem.name}"></td>
+			    <td th:text="${mem.addr}"></td>
+			    <td>
+				    <a th:href="@{/member/update(num=${mem.num})}">수정</a>/
+				    <a th:href="@{/member/delete(num=${mem.num})}">삭제</a>
+			    </td>
+			</tr>
+		</th:block>
+	</table>
+	<br><br>
+	<a href="">메인으로</a>
+</body>
+</html>

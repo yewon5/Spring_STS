@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>회원 수정</h1>
+	<form action="/member/update" method="post">
+	    <input type="hidden" name="num" value="${member.num}" />
+	    이름 : <input type="text" name="name" value="${member.name}" /><br>
+	    주소 : <input type="text" name="addr" value="${member.addr}" /><br>
+	    <input type="submit" value="수정" />
+	</form>
+</body>
+</html>
