@@ -6,11 +6,13 @@
   
 <!-- 패키지명을 적는 것이 관례 -->
 <mapper namespace="com.mysite.memberMapper"> 
+	<!-- 회원 등록 -->
 	<insert id="registerMember" parameterType="RegisterRequest">
 		INSERT INTO member(id, name, email, password, registerdate)
 		VALUES (seq_id.nextVal, #{name}, #{email}, #{password}, sysdate)
 	</insert>
 	
+	<!-- 아이디/비번 검증 -->
 	<select id="selectWithPass" parameterType="RegisterRequest" resultType="Member">
 		SELECT * FROM member WHERE email = #{email} AND password = #{password}
 	</select>
