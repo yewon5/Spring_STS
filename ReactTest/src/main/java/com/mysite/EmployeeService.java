@@ -13,4 +13,12 @@ public class EmployeeService {
 	public List<Employee> getAllEmployees(){
 		return employeeMapper.getAllEmployees();
 	}
+	
+	public void insertEmployee(Employee emp) {
+		employeeMapper.insertEmployee(emp);
+	}
+	
+	public void deleteEmployee(int id) {
+		employeeMapper.deleteEmployee(id);
+	}
 }
