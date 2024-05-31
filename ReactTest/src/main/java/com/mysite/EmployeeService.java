@@ -21,4 +21,8 @@ public class EmployeeService {
 	public void deleteEmployee(int id) {
 		employeeMapper.deleteEmployee(id);
 	}
+	
+	public void updateEmployee(Employee emp) {
+		employeeMapper.updateEmployee(emp);
+	}
 }

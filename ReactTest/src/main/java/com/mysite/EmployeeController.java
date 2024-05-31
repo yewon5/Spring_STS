@@ -32,10 +32,10 @@ public class EmployeeController {
 		employeeService.insertEmployee(emp);
 		return "저장완.";
 		
-		//public Employee return emp; 확인 코드
+		//public Employee {return emp;} 확인 코드
 	}
 	
-	@DeleteMapping("/{id}") //RESTful에선 물음표로 전달하지 않음
+	@DeleteMapping("/emp/{id}") //RESTful에선 물음표로 전달하지 않음. "/{id}" 이렇게만 적으면 이게 어떤 아이디인지 명확히해주는 것이 좋음
 	public String deleteEmployee(@PathVariable("id") int id) { //물음표로 받을때는 @Requestparam, @PathVariable 특정 ID를 URL 경로에서 추출하고 이를 메서드 매개변수로 사용
 		employeeService.deleteEmployee(id);
 		return "삭제완.";	
@@ -43,9 +43,12 @@ public class EmployeeController {
 		//public String return String.valueOf(id); id값 전달되는지 확인 코드
 	}
 	
-	@PutMapping("/{id}") //수정에는 2가지가 있다. put 기존 데이터를 지우고 덮어쓰기, patch 일부분만 수정하기
-	public String updateEmployee(@PathVariable("id") int id, @RequestBody Employee emp) {
-		String result = String.valueOf(id) + ", " + emp;
-		return result;
+	@PutMapping("/emp/{id}") //수정에는 2가지가 있다. put 기존 데이터를 지우고 덮어쓰기, patch 일부분만 수정하기
+	public String updateEmployee(@PathVariable("id") int id, @RequestBody Employee emp) { 
+		emp.setId(id); //주소를 전달했기때문에 emp에는 id가 없다
+		employeeService.updateEmployee(emp);
+		return "수정완";
+		
+		//public Employee {return id + ", " + emp;} 확인 코드
 	}
 }

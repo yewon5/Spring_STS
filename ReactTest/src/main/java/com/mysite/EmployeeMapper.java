@@ -6,6 +6,7 @@ import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
 //DAO
@@ -21,4 +22,7 @@ public interface EmployeeMapper {
 	
 	@Delete("delete from emp where id = #{id}")
 	void deleteEmployee(int id);
+	
+	@Update("update emp set name=#{name}, email=#{email} where id=#{id}")
+	void updateEmployee(Employee emp);
 }
