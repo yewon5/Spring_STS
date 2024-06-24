@@ -56,20 +56,20 @@ class JpaExam2ApplicationTests {
 		
 		user = new UserExam();
 		user.setFirstname("five");
-		user.setLastname("kim");
+		user.setLastname("kim");s
 		user.setActive(false);
 		user.setAge(38);
 		user.setStartDate(currentDateTime);
 		userExamRepository.save(user);
 	}
 
-	@Test
+	@Test @Disabled
 	void test1() {
 		List<UserExam> users = userExamRepository.findAll();
 		System.out.println("데이터 갯수 : " + users.size());
 	}
 	
-	@Test 
+	@Test @Disabled
 	void test2() {
 		List<UserExam> users = userExamRepository.findByLastnameAndFirstnameOrderByUserIdDesc("kim", "one");
 		for(UserExam user : users) {
@@ -77,13 +77,17 @@ class JpaExam2ApplicationTests {
 		}
 	}
 	
-	@Test
+	@Test @Disabled
 	void test3() {
 		System.out.println(userExamRepository.countByFirstnameIgnoreCaseLike("one"));
 	}
 	
-	@Test
+	/*
+	@Test 
 	void test4() {
 		System.out.println(userExamRepository.existsByStartDateLessThanEqual(LocalDateTime.now()));
 	}
+	*/
+	
+
 }
