@@ -1,10 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+    <meta charset="UTF-8">
+    <title>Member List</title>
 </head>
 <body>
-
+    <h2>Member List</h2>
+    <div>
+        <h1>Member List</h1>
+        
+        <p>
+        	현재 <span style="font-weight: bold" th:text="${#lists.size(members)}">10</span>명의 회원정보가 등록되었습니다.
+        </p>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        
+        <table cellpadding="10" border="1" width="800">
+            <thead>
+                <tr>
+                    <th width="50">#</th>
+                    <th>Name</th>
+                    <th>ID</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr th:each="member : ${members}">
+                    <td th:text="${member.num}">1</td>
+                    <td th:text="${member.name}">홍길동</td>
+                    <td th:text="${member.id}">mr.hong</td>
+                    <td><a href="#" th:href="@{/jpa/memberWrite(num=${member.num})}">수정</a></td>
+                    <!-- <td><a href="#" th:href="@{/jpa/memberDelete(num=${member.num})}">삭제</a></td>  -->
+                    <td><a href="#" th:onClick="btnDel([[${member.num}]])">삭제</a><td> <!-- 대괄호 2개로 번호 넘겨 받기 -->
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
+<script>
+	function btnDel(num){
+		if(confirm(num + "번 회원을 정말 삭제하시겠습니까?") == true){
+			location.href="/jpa/memberDelete?num=" + num;
+		}
+		else{
+			return;
+		}
+	}
+</script>
 </html>
+
