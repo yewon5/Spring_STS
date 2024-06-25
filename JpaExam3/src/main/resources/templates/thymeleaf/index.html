@@ -6,7 +6,7 @@
 <style>
 	* {margin: 0;}
 	main {
-		border: 0px solid;
+		border : 0px solid;
 		width: 100vw;
 		height: 100vh;
 		background: #ddd;
@@ -17,9 +17,9 @@
 	}
 	
 	main > button {
-		width: 300px;
+		width : 300px;
 		height: 70px;
-		background: blue;
+		background: red;
 		color: white;
 		padding: 20px 40px;
 		border-radius: 100px;
@@ -29,13 +29,13 @@
 		margin-bottom: 10px;
 	}
 	
-	main > button:nth-child(2) {background: red}
+	main > button:nth-child(2) {background: blue}
 </style>
 </head>
 <body>
 	<main>
-		<button onclick="location.href='/jpa/memberList'">JPA Member List</button>
-    	<button onclick="location.href='/jpa/memberWrite'">JPA Member Registration</button>
+		<button th:onclick="'location.href=\'' + @{/jpa/memberList(page=0, size=#{paging.size})} + '\';'">JPA Member List</button>
+		<button onClick="location.href='/jpa/memberWrite'">JPA Member Registration</button>
 	</main>
 </body>
 </html>

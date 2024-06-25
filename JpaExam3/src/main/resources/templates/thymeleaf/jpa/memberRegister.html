@@ -16,12 +16,10 @@
 		</style>
 	</head>
 	<body>
-		<h2>
-			Member
-			<span th:if="${formTitle} == 'Modification'" th:text="${formTitle}"></span>
-			<span th:unless="${formTitle} == 'Modification'" th:text="${formTitle}"></span>
-			Form
-		</h2>
+		<h2>Member
+			<span th:if="${formTitle} == 'Modification'" th:text="${formTitle}"></span> 
+			<span th:unless="${formTitle} == 'Modification'" th:text="${formTitle}"></span> 
+		Form</h2>
 		
 		<form action="/jpa/memberWrite" method="POST" id="memberWriteForm" th:object="${memberDto}">
 			<input type="hidden" name="num" th:field="*{num}">
@@ -49,3 +47,11 @@
 		</div>
 	</body>
 </html>
+
+
+
+
+
+
+
+

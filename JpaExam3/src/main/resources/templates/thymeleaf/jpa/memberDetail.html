@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Member Detail</h2>
+	<p>	
+		<a href="#" onClick="history.back(-1); return false;"
+			style="text-decoration:none"> <-back / 아래는 <span th:text=${member.num}>3</span>번 회원의 정보입니다.</a>
+	</p>
+		<table cellpadding="10" border="1" width="600">
+			<tr>
+				<td>Num</td>
+				<td th:text=${member.num}>3</td>
+			</tr>
+			<tr>
+				<td>Name</td>
+				<td th:text=${member.name}>홍길동</td>
+			</tr>
+			<tr>
+				<td>ID</td>
+				<td th:text=${member.id}>mr.hong</td>
+			</tr>
+			<tr>
+				<td>Phone</td>
+				<td th:text=${member.phone}>010-111-1111</td>
+			</tr>
+		</table>
+</body>
+</html>
