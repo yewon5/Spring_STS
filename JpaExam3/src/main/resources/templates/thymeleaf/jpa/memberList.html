@@ -69,7 +69,7 @@
 					Previous
 				</th:block>
 				<th:block th:unless="${members.number+1 == 1}">
-					<a href="#" th:href="@{/jpa/memberList(page=${members.number}-1, size=#{paging.size})}">Previous</a>
+					<a href="#" th:href="@{/jpa/memberList(page=${members.number}-1, searchKeyword=${searchKeyword})}">Previous</a>
 				</th:block>
 			</li>
 			<li>/</li>
@@ -78,7 +78,7 @@
 					Next
 				</th:block>
 				<th:block th:unless="${members.totalPages == members.number + 1}">
-					<a href="#" th:href="@{/jpa/memberList(page=${members.number}+1, size=#{paging.size})}">Next</a>
+					<a href="#" th:href="@{/jpa/memberList(page=${members.number}+1, searchKeyword=${searchKeyword})}">Next</a>
 				</th:block>
 			</li>
 		</ul>
