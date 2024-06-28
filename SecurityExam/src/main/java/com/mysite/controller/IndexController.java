@@ -1,8 +1,11 @@
 package com.mysite.controller;
 
+import org.springframework.security.access.annotation.Secured;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.mysite.model.User1;
@@ -41,15 +44,15 @@ public class IndexController {
 		return "admin";
 	}
 	
-	@GetMapping("/join")
-	@ResponseBody //이게 없으면 view로 이동하기때문에 html을 찾는다.
+	@PostMapping("/join")
 	public String join(User1 user) {
 		// DB에 저장
-		user.setRole("ROLE_USER"); //반드시 저장할떄는 ROLE_라는 접두사가 붙어야한다.
+		user.setRole("ROLE_USER"); //ROLE_가 붙어야 된다
 		
-		String encPwd = bCrypt.encode(user.getPassword());
+		String encPwd = bCrypt.encode(user.getPassword()); //자동으로 암호화 시켜줌
+		user.setPassword(encPwd); //암호화
+		
 		user1Repository.save(user);
-		
 		return "redirect:/loginForm";
 	}
 	
@@ -68,5 +71,20 @@ public class IndexController {
 	@GetMapping("/joinForm")
 	public String joinForm() {
 	    return "joinForm";
+	}
+	
+	@Secured("ROLE_ADMIN")
+	@GetMapping("/info")
+	@ResponseBody
+	public String info() { 
+		return "개인 정보 페이지";
+	}
+	
+	// @PreAuthorize(), @PostAuthorize()
+	@PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_MANAGER')")
+	@GetMapping("/data")
+	@ResponseBody
+	public String data() {
+		return "데이터 정보";
 	}
 }

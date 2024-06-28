@@ -11,12 +11,12 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-@NoArgsConstructor //기본생성자
+@NoArgsConstructor
 public class User1 {
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private int id;
-	private String usernmae;
+	private String username;
 	private String password;
 	private String role;
 	private Timestamp createDate;
